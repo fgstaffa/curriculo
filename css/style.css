@@ -1,0 +1,76 @@
+/* color:  
+    #244d90 -> header
+     #e4e9eb -> body
+*/
+/* fundo com diagonal
+#diagonal{
+    position: absolute;
+    left: 180px;
+    width: 1000px;
+    height: 640px;
+    background-color: #2c6c88;
+    transform: skew(-20deg);
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'MuseoModerno', cursive;
+}
+
+body{
+    background-color: #e4e9eb;
+    width: 100%;
+}
+
+header *{
+    color: #e4e9eb;
+}
+
+header{
+    background-color: #244d90;
+    height: 30px;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: #e4e9eb;
+    text-decoration: none;
+}
+
+header nav ul li:last-child{
+    position: relative;
+    left: 300px;
+}
+
+#foto{
+    width: 200px;
+    border-radius: 100%;
+    position: relative;
+    top: 60px;
+    left: 800px;
+    opacity: 0.5;
+}
+
+#corpo{
+    height: 582px;
+}
+
+footer{
+    width: 100%;
+    background-color: #244d90;
+    height: 30px;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+}
